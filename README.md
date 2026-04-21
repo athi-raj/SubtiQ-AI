@@ -50,6 +50,33 @@ Substance addiction is a growing concern affecting students due to factors such 
 
 ---
 
+## 📊 Dataset Sample (Preview)
+
+The following table shows a sample of the dataset used for training the model:
+
+| StudentID | ALT | GGT | Glucose | Creatine | THC | Cocaine | Opioid | pH  | Attendance | Marks Drop | Assign Delay | Leave | Mood | Peer Issues | Discipline | Counseling | Social Media | Gaming | Label        |
+| --------- | --- | --- | ------- | -------- | --- | ------- | ------ | --- | ---------- | ---------- | ------------ | ----- | ---- | ----------- | ---------- | ---------- | ------------ | ------ | ------------ |
+| S03902    | 64  | 10  | 125     | 1.28     | Yes | No      | Yes    | 6.0 | 1          | 0          | 1            | 0     | 0    | 0           | 0          | 1          | 1            | 1      | Addicted     |
+| S04901    | 13  | 53  | 144     | 1.25     | No  | No      | No     | 6.2 | 0          | 0          | 0            | 0     | 0    | 1           | 1          | 0          | 1            | 0      | Not Addicted |
+| S03946    | 119 | 51  | 113     | 1.49     | Yes | No      | No     | 5.4 | 0          | 0          | 1            | 0     | 0    | 1           | 0          | 1          | 0            | 1      | Addicted     |
+| S04397    | 30  | 100 | 84      | 1.03     | No  | No      | No     | 6.4 | 0          | 0          | 0            | 0     | 1    | 1           | 0          | 0          | 1            | 0      | Not Addicted |
+| S01164    | 61  | 179 | 121     | 1.10     | No  | No      | Yes    | 6.0 | 0          | 0          | 0            | 0     | 0    | 0           | 1          | 0          | 0            | 1      | Not Addicted |
+| S01784    | 71  | 10  | 70      | 1.54     | No  | No      | No     | 6.4 | 1          | 0          | 0            | 0     | 1    | 1           | 1          | 1          | 0            | 1      | Addicted     |
+| S02085    | 84  | 29  | 144     | 1.44     | No  | No      | No     | 5.8 | 0          | 0          | 1            | 1     | 0    | 0           | 1          | 0          | 0            | 0      | Not Addicted |
+| S05058    | 51  | 59  | 86      | 1.14     | Yes | No      | No     | 5.6 | 1          | 0          | 0            | 0     | 1    | 0           | 1          | 1          | 0            | 0      | Not Addicted |
+| S01864    | 62  | 120 | 96      | 1.28     | Yes | No      | No     | 6.1 | 0          | 0          | 1            | 0     | 0    | 1           | 0          | 1          | 0            | 0      | Not Addicted |
+
+---
+
+## 📌 Data Privacy & Access
+
+The dataset preview shown above contains a limited number of entries and has been **partially masked and anonymized** to protect sensitive information.
+
+The complete dataset consists of a significantly larger number of records and features, which are not publicly available due to **privacy policies, ethical considerations, and institutional restrictions**.
+
+For further information or collaboration requests, please contact the author.
+
+
 ## 🛠️ Tech Stack
 
 ### 🔹 Backend
