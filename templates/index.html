@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SubtiQ-AI</title>
+</head>
+<body>
+
+<h2>Drug Addiction Prediction</h2>
+
+<form method="POST">
+    ALT: <input name="ALT"><br>
+    GGT: <input name="GGT"><br>
+    Glucose: <input name="Glucose"><br>
+    Creatine: <input name="Creatine"><br>
+
+    THC (0/1): <input name="THC"><br>
+    Cocaine (0/1): <input name="Cocaine"><br>
+    Opioid (0/1): <input name="Opioid"><br>
+
+    pH: <input name="pH"><br>
+
+    Attendance (0/1): <input name="Attendance"><br>
+    Marks Drop (0/1): <input name="Marks"><br>
+    Assignment Delay (0/1): <input name="Assignment"><br>
+    Leave (0/1): <input name="Leave"><br>
+
+    Mood (0/1): <input name="Mood"><br>
+    Peer (0/1): <input name="Peer"><br>
+    Discipline (0/1): <input name="Discipline"><br>
+    Counseling (0/1): <input name="Counsel"><br>
+    Social Media (0/1): <input name="Social"><br>
+    Gaming (0/1): <input name="Gaming"><br>
+
+    <button type="submit">Predict</button>
+</form>
+
+{% if result %}
+    <h3>Prediction: {{ result }}</h3>
+{% endif %}
+
+</body>
+</html>
