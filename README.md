@@ -179,8 +179,10 @@ APJ Abdul Kalam Technological University
 
 ## 📌 Note
 
-This project is developed for academic and research purposes and aims to contribute to early intervention in substance addiction among students.
-
+The project is developed for academic and research purposes and aims to contribute to early intervention in substance addiction among students.
+This repository contains a simplified version of the full project.
+The complete system includes advanced preprocessing, feature engineering,
+and large-scale data handling which are not publicly shared.
 The dataset preview shown above includes a limited sample (10 entries) for demonstration purposes.
 Sensitive information has been masked and anonymized to ensure privacy and ethical compliance.
 The complete dataset consists of a significantly larger number of records and features, which are not publicly shared due to data confidentiality, security, and institutional restrictions.
