@@ -4,7 +4,7 @@ from train_model import train_model
 from predict import predict
 
 # Load sample dataset (use small CSV, not full data)
-df = pd.read_csv("../dataset_sample.csv")
+df = pd.read_excel("../Subtiq_AI_dataset.xlsx")
 
 # Preprocess
 df = preprocess(df)
